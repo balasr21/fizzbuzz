@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * The Class FizzBuzzTester.
  */
-public class FizzBuzzTester {
+public class FizzBuzzTest {
 
     FizzBuzz fizzBuzz=new FizzBuzz();
 

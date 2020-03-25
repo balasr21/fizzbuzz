@@ -23,3 +23,10 @@ number if its not multiple of 3 or 5
 and also group of testcases together run as nested for end to end
 
 3.Main.class contains the main method which invokes converter method and prints fizzbuzz converted value between 1 and 100
+
+
+## 1.4 Instructions to Run
+
+mvn clean test -- > to invoke junit test cases
+or 
+run Main.Java which will print 1 to 100 converted values
