@@ -4,6 +4,7 @@ package com.techjava.fizzbuzztest;
 import com.techjava.fizzbuzz.FizzBuzz;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -60,6 +61,9 @@ public class FizzBuzzTester {
     }
 
 
+    @DisplayName("Test converter method for all inputs from 1 to 100")
+    @Nested
+    class AllInputsTest{
     @DisplayName("Test rest of numbers which are not multiples of 3,5")
     @Test
     public void isConverterValidForAllRestNumbers(){
@@ -90,6 +94,7 @@ public class FizzBuzzTester {
         for(Integer n:commonMultiple){
             assertEquals("FizzBuzz",fizzBuzz.converter(n));
         }
+    }
     }
 
 
